@@ -1,7 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.Write("Hello, What is your address?");
-var address = Console.ReadLine();
-Console.WriteLine($"Hello I Live in {address?.ToUpper()}");
+﻿Console.Write("What is your number?");
+var numbertext = Console.ReadLine();
+var number = int.Parse(numbertext);
+
+    if (number% 2 == 0 )
+    Console.WriteLine(number + " is even");
+    else 
+    Console.WriteLine(number + "is odd");
+    
+
 
 
 
