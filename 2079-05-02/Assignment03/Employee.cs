@@ -29,5 +29,10 @@ public void startWorking()
     isWorking = true;
     Console.WriteLine($"is {firstName} working? {isWorking}");
 }
+public string getEmployee()
+{
+    string Emp = $"Firstname: {firstName}, Lastname: {lastName}, Employee ID: {employeeID}, Is Male?: {isMale}, Department: {department}";
+    return Emp;
 
+}
 }
