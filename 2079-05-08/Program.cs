@@ -3,6 +3,7 @@
 var style = new PyramidPatterns();
 style.MakeFisrtPattern();
 style.MakeSecondPattern();
+style.MakeThirdPattern();
 
 
  
