@@ -62,16 +62,23 @@ class EntryPoint
         // Console.WriteLine($"Area of Triangle: {a3} Perimeter of Triangle: {p3}");
 
 
-Generics g=new();
-g.Print<short>(56);
-g.Print<decimal>(23.2m);//even if not declared compiler can infer the datatype if proper parameter is given
-g.Print<float>(24.5f);
-g.Print<String>("23");
+// Generics g=new();
+// g.Print<short>(56);
+// g.Print<decimal>(23.2m);//even if not declared compiler can infer the datatype if proper parameter is given
+// g.Print<float>(24.5f);
+// g.Print<String>("23");
 
 
-Collection D=new();
-D.LearnDs();
+// Collection D=new();
+// D.LearnDs();
 
+// ExceptionHandling EH=new();
+// EH?.CreateDictionary();//?- null conditional operator; if EH is null, does not execute the method
+
+FileIO FIO=new();
+FIO.LearnFileHandling();
+
+FIO.LearnFolderHandling();
 
 
 
