@@ -42,24 +42,39 @@ class EntryPoint
         Rectangle rect1 = new Rectangle(3.4, 1.2);
         // rect1.length = 3.4; //already defined in constructor so not required
         // rect1.breadth = 2.6;
-        var a = rect1.GetArea();
-        var p = rect1.GetPerimeter();
-        Console.WriteLine($"Area of Rectangle: {a} Perimeter of Rectangle: {p}");
+        // var a = rect1.GetArea();
+        // var p = rect1.GetPerimeter();
+        // Console.WriteLine($"Area of Rectangle: {a} Perimeter of Rectangle: {p}");
 
-        Square sqr1 = new(3.4);
-        var a1 = sqr1.GetArea();
-        var p1 = sqr1.GetPerimeter();
-        Console.WriteLine($"Area of Square: {a1} Perimeter of Square: {p1}");
+        // Square sqr1 = new(3.4);
+        // var a1 = sqr1.GetArea();
+        // var p1 = sqr1.GetPerimeter();
+        // Console.WriteLine($"Area of Square: {a1} Perimeter of Square: {p1}");
 
-        Circle cir1 = new(3.4);
-        var a2 = cir1.GetArea();
-        var p2 = cir1.GetPerimeter();
-        Console.WriteLine($"Area of Circle: {a2} Perimeter of Circle: {p2}");
+        // Circle cir1 = new(3.4);
+        // var a2 = cir1.GetArea();
+        // var p2 = cir1.GetPerimeter();
+        // Console.WriteLine($"Area of Circle: {a2} Perimeter of Circle: {p2}");
 
-        Triangle trg1 = new(3, 4, 5);
-        var a3 = trg1.GetArea();
-        var p3 = trg1.GetPerimeter();
-        Console.WriteLine($"Area of Triangle: {a3} Perimeter of Triangle: {p3}");
+        // Triangle trg1 = new(3, 4, 5);
+        // var a3 = trg1.GetArea();
+        // var p3 = trg1.GetPerimeter();
+        // Console.WriteLine($"Area of Triangle: {a3} Perimeter of Triangle: {p3}");
+
+
+Generics g=new();
+g.Print<short>(56);
+g.Print<decimal>(23.2m);//even if not declared compiler can infer the datatype if proper parameter is given
+g.Print<float>(24.5f);
+g.Print<String>("23");
+
+
+Collection D=new();
+D.LearnDs();
+
+
+
+
 
     }
 }
