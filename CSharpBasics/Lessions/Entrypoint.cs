@@ -75,10 +75,17 @@ class EntryPoint
 // ExceptionHandling EH=new();
 // EH?.CreateDictionary();//?- null conditional operator; if EH is null, does not execute the method
 
-FileIO FIO=new();
-FIO.LearnFileHandling();
+// FileIO FIO=new();
+// FIO.LearnFileHandling();
 
-FIO.LearnFolderHandling();
+// FIO.LearnFolderHandling();
+
+// Linq L=new();
+// L.LearnLinq();
+
+ParallelAndAsync PS=new();
+PS.Do();
+PS.DoParallel();
 
 
 
