@@ -28,4 +28,22 @@ public class ParallelAndAsync
         Thread.Sleep(1000); //paused method for 1000 ms
         Console.WriteLine($"Completed task for {n}");
     }
+
+    //Async-await
+
+    public async Task<string> DoSomething()
+    {
+       await File.WriteAllTextAsync("sds", "asddss"); //will run this task in background when DoSomething is called
+
+        //task1
+        await Task.Delay(2000);//takes 2s to complete task1
+
+        //task2
+        await Task.Delay(2000);
+        //task3
+        await Task.Delay(2000);
+ return string.Empty;
+        
+
+    }
 }

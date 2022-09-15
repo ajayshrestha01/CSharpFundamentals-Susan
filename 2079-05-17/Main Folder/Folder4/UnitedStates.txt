@@ -1,0 +1,2 @@
+Country: United States 
+Capital: Washington, D.C

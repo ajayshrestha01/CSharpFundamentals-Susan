@@ -1,0 +1,2 @@
+Country: Switzerland 
+Capital: Bern
